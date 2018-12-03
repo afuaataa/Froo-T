@@ -1,0 +1,19 @@
+h1 {
+	display: inline;
+	position: relative;
+	font: 200px Chalkduster, fantasy;
+	letter-spacing: -5px;
+	color: #FF0000;
+}
+
+h1:after {
+	content: "Froo-T";
+	position: absolute; left: 10px; top: 5px;
+	color: brown;
+}
+
+textstyle {
+  color: brown;
+  font-style: italic;
+  font-weight: bold;
+          }
